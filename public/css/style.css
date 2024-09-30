@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url(centurygothic.ttf);
+}
+
+body {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 550;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid red;
+    margin: 10px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ff5171;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f28c9f;
+}
+
+th {
+    background-color: #eb3355;
+}
+
+.navbar-brand {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(120, 2, 2), 0 0 0.2em rgb(120, 2, 2);
+}
+
+h1, h2, img, p, figure, iframe, dl, dt, dd {
+    margin: 0.4em;
+}
+
+table caption, figure {
+    font-style: italic;
+    font-size: 0.9em;
+   }
+
+img {
+display: block;
+margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}

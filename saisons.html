@@ -16,71 +16,21 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
         crossorigin="anonymous"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="public/css/style.css"/>
     </head>
 
     <body>
         <header>
-            <nav
-                class="navbar navbar-expand-sm navbar-light bg-light"
-            >
-                <div class="container">
-                    <a class="navbar-brand" href="#">Stranger Things</a>
-                    <button
-                        class="navbar-toggler d-lg-none"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavId"
-                        aria-controls="collapsibleNavId"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavId">
-                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html" aria-current="page"
-                                    >Home
-                                    <span class="visually-hidden">(current)</span></a
-                                >
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="dropdownId"
-                                    data-bs-toggle="dropdown"
-                                    aria-haspopup="true"
-                                    aria-expanded="false"
-                                    >Other Pages</a
-                                >
-                                <div
-                                    class="dropdown-menu"
-                                    aria-labelledby="dropdownId"
-                                >
-                                    <a class="dropdown-item" href="synopsis.html"
-                                        >Stranger Things - Synopsis</a
-                                    >
-                                    <a class="dropdown-item" href="acteurs.html">
-                                        Stranger Things - Acteurs
-                                    </a>
-                                    <a class="dropdown-item" href="chiffres.html">
-                                        Stranger Things - Chiffres
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
         </header>
         <main>
             <h1>Saisons et épisodes</h1>
    
             <h2>Saison 1</h2>
         
-            <ul>
+            <ul class="saison1">
                 <li>Chapitre Un : La Disparition de <a href="acteurs.html#Noa_Schnapp" TARGET="_BLANK">Will Byers</a> <i>(Chapter One: The Vanishing of <a href="acteurs.html#Noa_Schnapp" TARGET="_BLANK">Will Byers</a>)</i></li>
                 <li>Chapitre Deux : La Barjot de Maple Street <i>(Chapter Two: The Weirdo on Maple Street)</i></li>
                 <li>Chapitre Trois : Petit Papa Noël <i>(Chapter Three: Holly, Jolly)</i></li>
@@ -93,7 +43,7 @@
             
             <h2>Saison 2</h2>
             
-            <ul>
+            <ul class="saison2">
                 <li>Chapitre Un : MADMAX <i>(Chapter One: MADMAX)</i></li>
                 <li>Chapitre Deux : Des bonbons ou un sort, espèce de taré <i>(Chapter Two: Trick or Treat Freak)</i></li>
                 <li>Chapitre Trois : Le Batracien <i>(Chapter Three: The Pollywog)</i></li>
@@ -108,7 +58,7 @@
             
             <h2>Saison 3</h2>
             
-            <ul>
+            <ul class="saison3">
                 <li>Chapitre Un : Suzie, tu me reçois ? <i>(Chapter One : Suzie, Do You Copy ?)</i></li>
                 <li>Chapitre Deux : Comme des rats <i>(Chapter Two : The Mall Rats)</i></li>
                 <li>Chapitre Trois : La Maître-nageuse disparue <i>(Chapter Three : The Case of the Missing Lifeguard)</i></li>
@@ -121,7 +71,7 @@
             
             <h2>Saison 4</h2>
             
-            <ul>
+            <ul class="saison4">
                 <li>Chapitre Un : Le Club Hellfire <i>(Chapter One : The Hellfire Club50)</i></li>
                 <li>Chapitre Deux : La Malédiction de Vecna <i>(Chapter Two : Vecna's Curse)</i></li>
                 <li>Chapitre Trois : Le Monstre et la Super-héroïne <i>(Chapter Three : The Monster and the Superhero)</i></li>
@@ -152,5 +102,39 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+
+        <ol class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                
+            </li>
+            <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Other Pages</a
+                >
+                <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownId"
+                >
+                    <a class="dropdown-item" href="index.html"
+                        >Home</a
+                    >
+                    <a class="dropdown-item" href="synopsis.html"
+                        >Stranger Things - Synopsis</a
+                    >
+                    <a class="dropdown-item" href="acteurs.html">
+                        Stranger Things - Acteurs
+                    </a>
+                    <a class="dropdown-item" href="chiffres.html">
+                        Stranger Things - Chiffres
+                    </a>
+                </div>
+            </li>
+        </ol><br>
     </body>
 </html>

@@ -4,8 +4,15 @@
 }
 
 body {
-    font-family: "Century Gothic", sans-serif;
-    font-weight: 550;
+    font-family: "Mooli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    background: black;
+  }
+  
+header {
+    background: black;
 }
 
 table {
@@ -48,11 +55,67 @@ table caption, figure {
     font-size: 0.9em;
    }
 
-img {
+.centpic {
 display: block;
 margin: 0 auto;
 }
 
 .center {
     text-align: center;
+}
+
+h1 {
+    color: #CD5C5C;
+    text-transform: uppercase;
+}
+
+p {
+    letter-spacing: 0.1rem;
+}
+
+*:not(h1) {
+    color: #F08080;
+}
+
+.saison1 li {
+    background-image: url("../images/will.png");
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    background-size: 1.2em;
+    list-style-type: none;
+}
+
+.saison2 li {
+    background-image: url("../images/dustin.png");
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    background-size: 1.2em;
+    list-style-type: none;
+}
+
+.saison3 li {
+    background-image: url("../images/mike.png");
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    background-size: 1.2em;
+    list-style-type: none;
+}
+
+.saison4 li {
+    background-image: url("../images/lucas.png");
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    background-size: 1.2em;
+    list-style-type: none;
+}
+
+h1, h2, h3 {
+    background: linear-gradient(to right, #430000 20%, black 80%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 20px;
+    border-radius:15px;
+    border: solid;
+    border-color:  #430000;
 }
